@@ -16,7 +16,7 @@
     <div class="header">
             <div class="header-content">
                 <div class="header-links">
-                    <a class="header-logo"><img class="header-img" src="img/header-logo.png" alt="" ></a>
+                    <a class="header-logo"><img class="header-img" src="<?php echo get_template_directory_uri(); ?>/img/header-logo.png" alt="" ></a>
                     <a class="header-link">HOME</a>
                     <a class="header-link">NEWS</a>
                     <a class="header-link">COMPANY</a>

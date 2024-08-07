@@ -1,19 +1,20 @@
 <?php
+function my_files() {
 
 // css読み込み
-
-function my_enqueue_styles() {
-  wp_enqueue_style('ress', '//unpkg.com/ress/dist/ress.min.css', array(), false, 'all');
-  wp_enqueue_style('style', get_stylesheet_uri(), array('ress'), false, 'all');
-}
-add_action('wp_enqueue_scripts', 'my_enqueue_styles');
+    wp_enqueue_style("style", get_template_directory_uri() . "/style.css", array(), filemtime(get_theme_file_path('/style.css')), "all");
+    wp_enqueue_style("service", get_template_directory_uri() . "/service.css", array(), filemtime(get_theme_file_path('/service.css')), "all");
 
 
+// jQueryの読み込み
+    wp_deregister_script( 'jquery' );
+    wp_enqueue_script( 'jquery', '//code.jquery.com/jquery-3.6.0.min.js', array(), '3.6.0' );
 // js読み込み
-
-function st_enqueue_scripts() {
-    wp_deregister_script('jquery');
-    wp_enqueue_script('jquery', '//ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js', array(), '3.5.1', false);
-    wp_enqueue_script('main', get_theme_file_uri('js/main.js'), array('jquery'), false, true);
+    wp_enqueue_script("main", get_template_directory_uri() . "/js/main.js", array("jquery"), filemtime(get_theme_file_path('/js/main.js')), true);
+    wp_enqueue_script("slick", get_template_directory_uri() . "/js/slick.js", array("jquery"), filemtime(get_theme_file_path('/js/slick.js')), true);
+    wp_enqueue_script("slick.min", get_template_directory_uri() . "/js/slick.min.js", array("jquery"), filemtime(get_theme_file_path('/js/slick.min.js')), true);
   }
-  add_action('wp_enqueue_scripts', 'st_enqueue_scripts');
+
+  add_action("wp_enqueue_scripts", "my_files");
+
+?>

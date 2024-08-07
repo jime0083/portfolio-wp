@@ -6,9 +6,9 @@
             <div class="top-page-contents">
                 <div class="top-page-image">
                     <ul class="slider">
-                        <li><a href="#"><img src="img/codeing.jpg" alt="image01"></a></li>
-                        <li><a href="#"><img src="img/enginer.jpg" alt="image03"></a></li>
-                        <li><a href="#"><img src="img/enginer3.jpg" alt="image04"></a></li>
+                        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/codeing.jpg" alt="image01"></a></li>
+                        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/enginer.jpg" alt="image03"></a></li>
+                        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/enginer3.jpg" alt="image04"></a></li>
                     </ul>
                     <div class="slider-coment">
                         <h1>give  form  to  ideas</h1>
@@ -30,24 +30,24 @@
                     <h3 class="title">Service</h3>
                     <div class="service-wrapper">
                         <div class="service-wrapper-content">
-                            <a href=""><img src="img/codeing.jpg" alt=""></a>
+                            <a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/codeing.jpg" alt=""></a>
                             <a class="u-cent">受託開発サービス</a>
                         </div>
                         <div class="service-wrapper-content">
-                            <a href=""><img src="img/codeing2.jpg" alt=""></a>
+                            <a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/codeing2.jpg" alt=""></a>
                             <a class="u-cent">受託開発サービス</a>
                         </div>
                         <div class="service-wrapper-content">
-                            <a href=""><img src="img/enginer2.jpg" alt=""></a>
+                            <a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/enginer2.jpg" alt=""></a>
                             <a class="u-cent">受託開発サービス</a>
                         </div>
 
                         <div class="service-wrapper-content">
-                            <a href=""><img src="img/enginer3.jpg" alt=""></a>
+                            <a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/enginer3.jpg" alt=""></a>
                             <a class="u-cent">受託開発サービス</a>
                         </div>
                         <div class="service-wrapper-content">
-                            <a href=""><img src="img/codeing.jpg" alt=""></a>
+                            <a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/codeing.jpg" alt=""></a>
                             <a class="u-cent">受託開発サービス</a>
                         </div>
                         <!-- <div class="service-wrapper-content">

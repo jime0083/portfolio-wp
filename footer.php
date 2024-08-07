@@ -1,6 +1,6 @@
 <div class="footer">
             <div class="footer-content" >
-                <img src="img/footer-logo.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/footer-logo.png" alt="">
                 <p>〒000-0000  東京都板橋区〇〇〇〇 〇〇〇〇ビル7F</p>
                 <a href="">・個人情報保護方針</a>
             </div>
@@ -14,6 +14,6 @@
 
         <?php wp_footer(); ?>
         
-        
+
     </body>
 </html>
