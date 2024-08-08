@@ -146,7 +146,12 @@ ul{
 
  .top-page-image {
     text-align: center;
-} 
+    height: 700px !important;
+}
+
+.top-page-image li{
+    z-index: 1 !important;
+}
 
 /* .top-page-image h1{
     padding-top: 200px;
@@ -240,6 +245,11 @@ ul{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color:#7d7d7d; */
     font-size: 20px;
+    padding-top: 10px;
+}
+
+.greeting-margin{
+    margin-top: 15px;
 }
 
 

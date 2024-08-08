@@ -8,7 +8,9 @@
                     <ul class="slider">
                         <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/codeing.jpg" alt="image01"></a></li>
                         <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/enginer.jpg" alt="image03"></a></li>
-                        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/enginer3.jpg" alt="image04"></a></li>
+                        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/codeing.jpg" alt="image04"></a></li>
+                        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/iphone2.jpg" alt="image04"></a></li>
+                        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/codeing2.jpg" alt="image04"></a></li>
                     </ul>
                     <div class="slider-coment">
                         <h1>give  form  to  ideas</h1>
@@ -19,8 +21,8 @@
                 <div class="top-page-greeting">
                     <h2>ご挨拶</h2>
                     <h3 class="title">Greeting</h3>
-                    <p>株式会社 Jime Companyは、ソフトフェアソフトウェア開発事業を通じて</p>
-                    <p class="greeting-margin">社会の発展に貢献することをミッションとしています</p>
+                    <p class="greeting-margin">株式会社 Jime Companyは、ソフトフェアソフトウェア開発事業を通じて</p>
+                    <p>社会の発展に貢献することをミッションとしています</p>
                     <p>クラウドでの運用を想定したアプリケーションの企画・開発から運用保守までワンストップで対応します。</p>
                     <p>ゲーム・大手企業様業務システムなど多くの開発実績で培った技術で安定したサービスを作り上げます。</p>
                 </div>
