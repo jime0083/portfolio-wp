@@ -10,9 +10,6 @@
         <?php wp_head(); ?>
     </head>
 
-
-    <>
-
     <div class="header">
             <div class="header-content">
                 <div class="header-links">
@@ -21,7 +18,7 @@
                     <a class="header-link">NEWS</a>
                     <a class="header-link">COMPANY</a>
                     <a class="header-link">SERVICE</a>
-                    <a class="header-link">RECRUIT</a>
+                    <a class="header-link" href="http://portfolio-rifo.local/recruit-top/">RECRUIT</a>
                     <a class="header-link" href="http://portfolio-rifo.local/access/">ACCESS</a>
                     <a class="header-link header-link-last">CONTACT</a>
                 </div>

@@ -1,0 +1,215 @@
+/* recruitヘッダー */
+
+.recruit-header-1{
+    width: 100%;
+    background-color: #222;
+    vertical-align: middle;
+    height: 80px;
+}
+
+.recruit-header-content{
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.recruit-header-links{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.recruit-header-logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.recruit-header-logo img{
+    width: 180px;
+}
+
+.header-btn{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.header-btn a{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.recruit-header-link{
+    display: inline-block;
+    width: 220px;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+}
+
+.link-1{
+    background-color: #79d3f3;
+    vertical-align: middle;
+}
+
+.link-2{
+    background-color: #241d88;
+    vertical-align: middle;
+}
+
+.link-3{
+    background-color: #129d57;
+    vertical-align: middle;
+}
+
+.link-4{
+    background-color: #12589d;
+    vertical-align: middle;
+}
+
+
+
+
+/* .recruit-top{
+    height: 100px;
+} */
+
+.recuruit-top-contents{
+    background-color: #222;
+    padding: 40px 20px;
+    text-align: center;
+    /* width: 100%; */
+    margin: 0;
+}
+
+.recuruit-top-contents h2{
+    color: #fff;
+    padding: 50px 0;
+}
+
+.recuruit-top-contents p{
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.recuruit-top-top-btn{
+    margin-top: 100px;
+}
+
+.recuruit-top-top-btn a{
+    border: 1px solid #12589d;
+    color: #12589d;
+    font-weight: 600;
+    padding: 20px 0;
+    width: 300px;
+    display: inline-block;
+    margin-right: 20px;
+    background-color: #fff;
+}
+
+.recuruit-top-top-btn a:hover{
+    background-color: #12589d;
+    color: #fff;
+    transition: all 0.2s;
+}
+
+
+
+
+.recruti-mid{
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #fff;
+}
+
+.recruti-mid h2{
+    color: #fff;
+    padding-top: 50px;
+}
+
+.recruti-mid p{
+    color: #fff;
+    padding-top: 10px;
+}
+
+
+.recruit-1{
+    background-image: url("img/recrut3-bl.jpg");
+    background-size: cover;
+    height: 370px;
+}
+
+.recruit-2{
+    background-image: url("img/iphone-bl.jpg");
+    background-size: cover;
+    height: 350px;
+}
+
+.recruit-3{
+    background-image: url("img/work-bl.jpg");
+    background-size: cover;
+    height: 350px;
+}
+
+.recruit-top-btn{
+    border: 1px solid #fff;
+    color: #fff;
+    margin-top: 50px;
+    text-align: center;
+    width: 400px;
+    display: inline-block;
+    padding: 20px 0;
+    transition: all 0.2s;
+}
+
+
+
+.recruit-top-btn:hover{
+    background-color: #fff;
+    color: #222;
+}
+
+
+
+.recruit-under-link{
+    text-align: center;
+}
+
+.under-link-left{
+    display: inline-block;
+    padding-top: 50px;
+    margin-right: 30px;
+}
+
+.under-link-left-contents{
+    /* border: 1px solid #7d7d7d; */
+    text-align: center;
+}
+
+.under-link-left-contents img{
+    width: 560px;
+    height: 250px;
+    display: block;
+}
+
+/* .under-link-left-contents p{
+
+} */
+
+.under-link-right{
+    display: inline-block;
+    padding-top: 50px;
+}
+
+.under-link-right-contents{
+    /* border: 1px solid #7d7d7d; */
+    text-align: center;
+}
+
+.under-link-right-contents img{
+    width: 560px;
+    display: block;
+    height: 250px;
+}

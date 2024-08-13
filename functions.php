@@ -4,6 +4,8 @@ function my_files() {
 // css読み込み
     wp_enqueue_style("style", get_template_directory_uri() . "/style.css", array(), filemtime(get_theme_file_path('/style.css')), "all");
     wp_enqueue_style("service", get_template_directory_uri() . "/service.css", array(), filemtime(get_theme_file_path('/service.css')), "all");
+    wp_enqueue_style("recruit", get_template_directory_uri() . "/recruit.css", array(), filemtime(get_theme_file_path('/recruit.css')), "all");
+    wp_enqueue_style("recruit-new", get_template_directory_uri() . "/recruit-new.css", array(), filemtime(get_theme_file_path('/recruit-new.css')), "all");
 
 
 // jQueryの読み込み
