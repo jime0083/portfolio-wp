@@ -18,8 +18,8 @@
                     <a class="header-link">NEWS</a>
                     <a class="header-link">COMPANY</a>
                     <a class="header-link">SERVICE</a>
-                    <a class="header-link" href="http://portfolio-rifo.local/recruit-top/">RECRUIT</a>
-                    <a class="header-link" href="http://portfolio-rifo.local/access/">ACCESS</a>
+                    <a class="header-link" href="http://portfolio.local/recruit/">RECRUIT</a>
+                    <a class="header-link" href="http://portfolio.local/access/">ACCESS</a>
                     <a class="header-link header-link-last">CONTACT</a>
                 </div>
             </div>

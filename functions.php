@@ -20,4 +20,40 @@ function my_files() {
 
   add_action("wp_enqueue_scripts", "my_files");
 
+
+  add_action( 'init', 'create_post_type' );
+function create_post_type() {
+
+    register_post_type( 'new', [ // 投稿タイプ名の定義
+        'labels' => [
+            'name'          => '新卒', // 管理画面上で表示する投稿タイプ名
+            'singular_name' => 'new',    // カスタム投稿の識別名
+        ],
+        'public'        => true,  // 投稿タイプをpublicにするか
+        'has_archive'   => false, // アーカイブ機能ON/OFF
+        'menu_position' => 5,     // 管理画面上での配置場所
+        'show_in_rest'  => true,  // 5系から出てきた新エディタ「Gutenberg」を有効にする
+        
+    ]);
+
+
+    register_post_type('half', //カスタム投稿タイプ名
+        array( //オプション
+          'label' => '中途',
+          'public' => true,
+          'has_archive' => true,
+          'menu_position' => 5,
+          'show_in_rest' => true,
+          'supports' => array(
+            // サポートする機能を記述
+          ),
+        )
+      );
+
+
+}
+
 ?>
+
+
+
