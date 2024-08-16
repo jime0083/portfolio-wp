@@ -19,11 +19,11 @@
                 <div class="recruit-header-links">
                     <a class="recruit-header-logo"><img class="header-img" src="<?php echo get_template_directory_uri(); ?>/img/footer-logo.png" alt="" ></a>
                     <div class="header-btn-2">
-                        <a class="recruit-header-link-2 link">Jime Companyでの働き方</a>
-                        <a class="recruit-header-link-2 link">社員データ</a>
-                        <a class="recruit-header-link-2 link">入社後のフロー</a>
-                        <a class="recruit-header-link-2 link">社員の1日</a>
-                        <a class="recruit-header-link-2 link">エントリー</a>
+                        <a class="recruit-header-link-2 link" href="">Jime Companyでの働き方</a>
+                        <a class="recruit-header-link-2 link" href="">社員データ</a>
+                        <a class="recruit-header-link-2 link" href="">入社後のフロー</a>
+                        <a class="recruit-header-link-2 link" href="">社員の1日</a>
+                        <a class="recruit-header-link-2 link" href="">エントリー</a>
                     </div>
                 </div>
             </div>

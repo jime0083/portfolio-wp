@@ -14,13 +14,13 @@
             <div class="header-content">
                 <div class="header-links">
                     <a class="header-logo"><img class="header-img" src="<?php echo get_template_directory_uri(); ?>/img/header-logo.png" alt="" ></a>
-                    <a class="header-link">HOME</a>
-                    <a class="header-link">NEWS</a>
-                    <a class="header-link">COMPANY</a>
-                    <a class="header-link">SERVICE</a>
+                    <a class="header-link" href="">HOME</a>
+                    <a class="header-link" href="">NEWS</a>
+                    <a class="header-link" href="">COMPANY</a>
+                    <a class="header-link" href="">SERVICE</a>
                     <a class="header-link" href="http://portfolio.local/recruit/">RECRUIT</a>
                     <a class="header-link" href="http://portfolio.local/access/">ACCESS</a>
-                    <a class="header-link header-link-last">CONTACT</a>
+                    <a class="header-link header-link-last" href="">CONTACT</a>
                 </div>
             </div>
         </div>

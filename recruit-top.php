@@ -19,7 +19,7 @@ Template Name:RECRUIT-TOP
                         <h1>It could be the start of something new tonight</h1>
                         <h3>今夜、まっさらから始めよう</h3>
                         <div class="recuruit-top-top-btn">
-                            <a href="">新卒採用はこちら</a>
+                            <a href="http://portfolio.local/recruit-new/">新卒採用はこちら</a>
                             <a href="">中途採用はこちら</a>
                             <a href="">パート・アルバイトはこちら</a>
                         </div>
@@ -44,7 +44,7 @@ Template Name:RECRUIT-TOP
                 <p>5年後・10年後・その先の人生を見据えながら</p>
                 <p>あなた自身と会社を成長させたいという方をお待ちしています</p>
             </div>
-            <a href="" class="recruit-top-btn">採用情報はこちら</a>
+            <a href="http://portfolio.local/recruit-new/" class="recruit-top-btn">採用情報はこちら</a>
         </div>
 
         <div class="recruti-mid recruit-2">
@@ -53,7 +53,7 @@ Template Name:RECRUIT-TOP
                 <p>中途の方はこちらから</p>
                 <p>あなたのこれまでの経験を活かし活躍できる職場で一緒に働きませんか？</p>
             </div>
-            <a href="" class="recruit-top-btn">採用情報はこちら</a>
+            <a href="http://portfolio.local/recruit-half/" class="recruit-top-btn">採用情報はこちら</a>
         </div>
 
         <div class="recruti-mid recruit-3">
