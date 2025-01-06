@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: SERVICE
+Template Name: service
 */
 ?>
 
