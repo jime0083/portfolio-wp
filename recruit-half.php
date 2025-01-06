@@ -12,9 +12,9 @@ Template Name: RECRUIT-HALF
             <div class="rectuit-top-content">
                 <div class="top-page-image">
                     <ul class="slider">
-                        <li><a href="#"><img src="/img/codeing.jpg" alt="image01"></a></li>
-                        <li><a href="#"><img src="/img/enginer.jpg" alt="image03"></a></li>
-                        <li><a href="#"><img src="/img/enginer3.jpg" alt="image04"></a></li>
+                        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/codeing.jpg" alt="image01"></a></li>
+                        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/enginer.jpg" alt="image03"></a></li>
+                        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/enginer3.jpg" alt="image04"></a></li>
                     </ul>
                     <div class="slider-coment">
                         <h1>It could be the start of something new tonight</h1>
@@ -41,14 +41,14 @@ Template Name: RECRUIT-HALF
         <div class="recruit-under-link">
             <div class="under-link-left">
                 <a class="under-link-left-contents" href="">
-                    <img src="img/recruit3.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/recruit3.jpg" alt="">
                     <p>社員インタビュー</p>
                 </a>
             </div>
 
             <div class="under-link-right">
                 <a class="under-link-right-contents" href="">
-                    <img src="img/work3.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/work3.jpg" alt="">
                     <p>社内制度・環境</p>
                 </a>
             </div>
