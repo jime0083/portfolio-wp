@@ -70,6 +70,7 @@
     position: absolute;
     right: 30px;
     bottom: 300px;
+    text-align: left;
 }
 
 .service-right h2{
@@ -95,6 +96,7 @@
 .service-bottom-c{
     width: 50%;
     display: inline-block;
+    text-align: left;
 }
 
 .service-bottom-c h3{
