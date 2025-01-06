@@ -45,12 +45,11 @@
 
 .service-content{
     background-color: #f1f1f1;
-    text-align: center;
-    padding-bottom: 50px;
+    text-align: left;
+    padding: 50px 0;
 }
 
 .service-contents{
-    padding: 100px 20px;
     text-align: left;
     position: relative;
 }
@@ -60,6 +59,7 @@
     height: 470px;
     z-index: 1;
     left: 20px;
+    margin-left: 20px;
 }
 
 .service-right{
@@ -79,6 +79,8 @@
 }
 
 .service-right P{
+    font-size: 14px;
+    padding: 10px 0;
 }
 
 .service-bottom{
@@ -91,10 +93,11 @@
     bottom: 5px;
     left: 100px;
     vertical-align: top;
+    display: inline-block;
 }
 
 .service-bottom-c{
-    width: 50%;
+    width: 45%;
     display: inline-block;
     text-align: left;
 }
@@ -105,6 +108,8 @@
 }
 
 .service-bottom-c p{
+    font-size: 12px;
+    padding: 10px 0;
 }
 
 .bottom-left{

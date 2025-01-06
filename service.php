@@ -22,9 +22,9 @@ Template Name: service
 
         <div class="service-contents">
             <div class="service-content">
-                <img src="/img/pc2.jpg" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/pc2.jpg" alt="">
                 <div class="service-right">
-                    <h2>DEVELOPMENT SERVICE 受託開発サービス</h2>
+                    <h2>受託開発サービス</h2>
                     <p>当社では、主にスマートフォン向けソフトウェアの受託開発を行っています。 
                         多くの実績で培った制御フローや品質向上への取り組み、その後の迅速なサポートなど、
                         お客様の状況に応じた技術を提供致します。
@@ -47,6 +47,54 @@ Template Name: service
                     </div>
                 </div>
             </div>
+
+
+            <div class="service-content">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/pc1.jpg" alt="">
+                <div class="service-right">
+                    <h2>システムエンジニアリングサービス</h2>
+                    <p>大手企業から中小企業まで業種を問わず、様々なシステム開発、ITインフラ構築・運用、
+                        ヘルプデスクサービスなどお客様のニーズに合わせ専門性の高いエンジニアをご提案させて頂きます。 
+                        開発プロジェクトを成功させる為には、技術力はもちろんの事、円滑な人間関係を築けるヒューマンスキルが必須です。 
+                        当社では社員の人間性を重要視した採用、教育を行い、満足度の高いサービスをご提供致します。</p>
+                </div>
+                <div class="service-bottom">
+                    <div class="service-bottom-c">
+                        <h3>取引先業種</h3>
+                        <p>・製造、設計、情報通信、各種サービスなど</p>
+                        <h3>開発環境</h3>
+                        <p>・OS：Windows、Mac</p>
+                        <p>・言語：HTML、CSS、Javascript(jQuery、Vue.js)</p>
+                        <p>・CDM:WordPress</p>
+                    </div>
+                    <div class="service-bottom-c">
+                        <h3>開発工程</h3>
+                        <p>・調査分析・要件定義、基本設計、詳細設計、デザイン、製造、テスト、導入、保守、運用</p>
+                        <h3>開発実績</h3>
+                        <p>・某建築設計会社様アプリケーション開発(XDによるデザイン作成、HTML、CSS、Vue.js)</p>
+                        <p>・某自動車会社様内部システム開発(HTML、CSS、Vue.js)</p>
+                        <p>・某IT会社様、某化粧品会社様、某学習塾会社様...他コーポレートサイト、LP作成多数(HTML、CSS、jQuery、Wordpress)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-content">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/work.jpg" alt="">
+                <div class="service-right">
+                    <h2>ポートフォリオ</h2>
+                    <p>制作物の一部を公開しております。
+                        下記のリンクからご覧ください
+                    </p>
+                </div>
+                <div class="service-bottom">
+                    <div class="service-bottom-c">
+                        <h3>主な制作物</h3>
+                        <a href="">テストテストテスト</a>
+                    </div>
+                </div>
+            </div>
+
+        
         </div>
 </div>
 
