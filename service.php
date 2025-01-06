@@ -10,7 +10,7 @@ Template Name: SERVICE
 
 <div class="service-top">
             <div class="company-top-img">
-                <h2></h2>
+                <h2>service</h2>
             </div>
         </div>
 

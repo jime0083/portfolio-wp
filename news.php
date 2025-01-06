@@ -10,7 +10,7 @@ Template Name: NEWS
 
 <div class="service-top">
             <div class="company-top-img">
-                <h2></h2>
+                <h2>NEWS</h2>
             </div>
         </div>
 
