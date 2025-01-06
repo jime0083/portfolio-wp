@@ -92,6 +92,19 @@
     vertical-align: top;
 }
 
+.service-bottom-c{
+    width: 50%;
+    display: inline-block;
+}
+
+.service-bottom-c h3{
+    color: #12589d;
+    font-size: 18px;
+}
+
+.service-bottom-c p{
+}
+
 .bottom-left{
     display: inline-block;
     vertical-align: top;
