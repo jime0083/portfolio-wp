@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: COMPANY
+Template Name: SERVICE
 */
 ?>
 
@@ -10,7 +10,7 @@ Template Name: COMPANY
 
 <div class="service-top">
             <div class="company-top-img">
-                <h2>Company</h2>
+                <h2></h2>
             </div>
         </div>
 
