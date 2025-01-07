@@ -14,7 +14,7 @@ Template Name: service
             </div>
         </div>
 
-        <div class="top-page-greeting">
+        <div class="low-page-greeting">
             <h2>事業案内</h2>
             <h3 class="title">SERVICE</h3>
             <p class="p-t-20">当社の事業をご紹介します</p>
@@ -47,16 +47,15 @@ Template Name: service
                     </div>
                 </div>
             </div>
+        </div>
 
-
+        <div class="service-contents">
             <div class="service-content">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/pc1.jpg" alt="">
                 <div class="service-right">
                     <h2>システムエンジニアリングサービス</h2>
                     <p>大手企業から中小企業まで業種を問わず、様々なシステム開発、ITインフラ構築・運用、
-                        ヘルプデスクサービスなどお客様のニーズに合わせ専門性の高いエンジニアをご提案させて頂きます。 
-                        開発プロジェクトを成功させる為には、技術力はもちろんの事、円滑な人間関係を築けるヒューマンスキルが必須です。 
-                        当社では社員の人間性を重要視した採用、教育を行い、満足度の高いサービスをご提供致します。</p>
+                        ヘルプデスクサービスなどお客様のニーズに合わせ専門性の高いエンジニアをご提案させて頂きます。 </p>
                 </div>
                 <div class="service-bottom">
                     <div class="service-bottom-c">
@@ -77,7 +76,9 @@ Template Name: service
                     </div>
                 </div>
             </div>
+        </div>
 
+        <div class="service-contents">
             <div class="service-content">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/work.jpg" alt="">
                 <div class="service-right">
@@ -93,9 +94,12 @@ Template Name: service
                     </div>
                 </div>
             </div>
-
-        
         </div>
+
+        <div class="top-page-btn-f1 p-b-50 p-t-50">
+                    <a href="http://portfolio.local/access/">アクセス</a>
+        </div>
+
 </div>
 
 

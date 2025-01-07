@@ -41,6 +41,14 @@ ul{
     padding-top: 20px;
 }
 
+.p-t-50{
+    padding-top: 50px;
+}
+
+.p-b-50{
+    padding-bottom: 50px;
+}
+
 .m-t-20{
     margin-top: 20px;
 }
@@ -69,6 +77,26 @@ ul{
     padding: 15px 0;
 }
 
+/*
+背景灰色奴
+*/
+
+.top-page-btn-f1{
+    text-align: center;
+    color: #cd3333;
+    text-decoration:none;
+    background-color: #f1f1f1;
+}
+
+.top-page-btn-f1 a{
+    border: 1px solid #cd3333;
+    display: inline-block;
+    color: #cd3333;
+    width: 250px;
+    text-decoration:none;
+    padding: 15px 0;
+}
+
 .top-page-btn P{
     color: #cd3333;
     text-decoration:none;
@@ -78,6 +106,12 @@ ul{
 
 /* ボタンhover */
 .top-page-btn a:hover{
+    background-color: #cd3333;
+    transition: all 0.2s;
+    color: #fff;
+}
+
+.top-page-btn-f1 a:hover{
     background-color: #cd3333;
     transition: all 0.2s;
     color: #fff;
@@ -202,6 +236,20 @@ ul{
     background-repeat: no-repeat;
     height: 400px;
     text-align: center;
+}
+
+
+/*
+トップページ以外のタイトル下
+*/
+.low-page-greeting{
+    background-color: #fff;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 50px 0;
 }
 
 .top-page-greeting h2{

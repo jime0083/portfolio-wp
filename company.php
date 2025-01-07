@@ -74,7 +74,7 @@ Template Name: company
                 </div>
 
                 <div class="top-page-btn m-b-0 m-t-50">
-                    <a href="">アクセス</a>
+                    <a href="http://portfolio.local/access/">アクセス</a>
                 </div>
 
             </div>
