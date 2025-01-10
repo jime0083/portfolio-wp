@@ -214,3 +214,125 @@ NEWSページ
     color: #fff;
     font-size: 30px;
 }
+
+
+/*
+CONTACTページ
+*/
+.contact-top-img{
+    background-image:url("img/shake.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    text-align: center;
+}
+
+.contact-top-img h2{
+    /* margin: auto; */
+    padding-top: 200px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.contacts{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.contact{
+    display: inline-block;
+    border: 1px solid #dcdcdc;
+    width: 90%;
+}
+
+.contact-left{
+    text-align: center;
+    background-color: #f1f1f1;
+    width: 25%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contact-left p{
+    font-weight: bold;
+    font-size: 15px;
+    padding: 20px 0;
+}
+
+.contact-right{
+    text-align: left;
+    width: 70%;
+    padding-left: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contact-right input{
+    height: 25px;
+    width: 400px;
+}
+
+.contact-right select{
+    height: 30px;
+    width: 400px;
+}
+
+.contact-toll{
+    height: 150px;
+    display: inline-block;
+    border: 1px solid #dcdcdc;
+    width: 90%;
+}
+
+.contact-left-toll{
+    text-align: center;
+    background-color: #f1f1f1;
+    width: 25%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 63px 0;
+}
+
+.contact-left-toll p{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.contact-right-toll{
+    text-align: left;
+    width: 70%;
+    padding-left: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contact-right-toll textarea{
+    height: 110px;
+    width: 400px;
+}
+
+.contact-btn{
+    color: #cd3333;
+    text-decoration:none;
+    margin: 50px 0;
+}
+
+.contact-btn input{
+    border: 1px solid #cd3333;
+    display: inline-block;
+    color: #cd3333;
+    width: 250px;
+    text-decoration:none;
+    padding: 15px 0;
+    background-color: #fff;
+    margin-left: 70px;
+}
+
+.contact-btn input:hover{
+    background-color: #cd3333;
+    transition: all 0.2s;
+    color: #fff;
+}
