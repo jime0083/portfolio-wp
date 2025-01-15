@@ -19,8 +19,8 @@
                         <a class="recruit-header-link link-1" href="http://portfolio.local/recruit-new/">新卒採用はこちら</a>
                         <a class="recruit-header-link link-2" href="http://portfolio.local/recruit-half/">中途採用はこちら</a>
                         <a class="recruit-header-link link-3" href="">Jime Company ブログ</a>
-                        <a class="recruit-header-link link-4" href="">⇐COMPANY</a>
+                        <a class="recruit-header-link link-4" href="http://portfolio.local/">⇐COMPANY</a>
                     </div>
                 </div>
             </div>
-        </div>
+    </div>

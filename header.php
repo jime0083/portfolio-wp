@@ -18,7 +18,7 @@
                     <a class="header-link" href="http://portfolio.local/news/">NEWS</a>
                     <a class="header-link" href="http://portfolio.local/company/">COMPANY</a>
                     <a class="header-link" href="http://portfolio.local/service/">SERVICE</a>
-                    <a class="header-link" href="http://portfolio.local/recruit/">RECRUIT</a>
+                    <a class="header-link" href="http://portfolio.local/recruit-top/">RECRUIT</a>
                     <a class="header-link" href="http://portfolio.local/access/">ACCESS</a>
                     <a class="header-link header-link-last" href="http://portfolio.local/contact/">CONTACT</a>
                 </div>

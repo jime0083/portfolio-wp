@@ -20,8 +20,8 @@ Template Name:RECRUIT-TOP
                         <h3>今夜、まっさらから始めよう</h3>
                         <div class="recuruit-top-top-btn">
                             <a href="http://portfolio.local/recruit-new/">新卒採用はこちら</a>
-                            <a href="">中途採用はこちら</a>
-                            <a href="">パート・アルバイトはこちら</a>
+                            <a href="http://portfolio.local/recruit-half/">中途採用はこちら</a>
+                            <a href="http://portfolio.local/part/">パート・アルバイトはこちら</a>
                         </div>
                     </div>
                 </div>
