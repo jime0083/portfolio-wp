@@ -441,7 +441,8 @@
     text-align: center;
 }
 
-.recruit-work-main-top
+.recruit-work-main-top{
+}
 
 .recruit-work-main-top h2{
     color: #fff;
@@ -450,16 +451,53 @@
 
 .recruit-work-main-contents
 
-.recruit-work-main-content
+.recruit-work-main-content{
+    width: 100%;
+    vertical-align: top;
+    background-color: #fff;
+    text-align: left;
+}
 
 .recruit-work-main-left{
     width: 50%;
     display: inline-block;
+    height: 500px;
+    margin: 0;
+}
+
+.recruit-work-main-left img{
+    width: 100%;
+    display: inline-block;
+    height: 500px;
 }
 
 .recruit-work-main-right{
-    width: 50%;
+    width: 49.5%;
     display: inline-block;
+    height: 500px;
+    margin: 0;
+    vertical-align: top;
+}
+
+.recruit-work-main-right img{
+    width: 100%;
+    display: inline-block;
+    height: 500px;
+}
+
+.recruit-work-main-cont-text{
+    padding: 50px;
+}
+
+.recruit-work-main h3{
+
+}
+
+.recruit-work-main p{
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    margin: 20px 0;
+    padding-bottom: 20px;
 }
 
 
