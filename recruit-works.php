@@ -5,7 +5,7 @@ Template Name: recruit-work
 ?>
 
 
-<?php get_header(2); ?>
+<?php get_header(4); ?>
 
 
 <div class="recruit-work-top">
