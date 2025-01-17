@@ -220,7 +220,7 @@
 .btm-btn{
     border: 1px solid #cd3333;
     color: #cd3333;
-    margin-top: 50px;
+    margin: 30px 0;
     text-align: center;
     width: 400px;
     display: inline-block;
@@ -551,7 +551,7 @@
     width: 90%;
     text-align: center;
     display: inline-block;
-    margin: 30px 0;
+    /* margin: 30px 0; */
 }
 
 .data{
@@ -567,7 +567,41 @@
     border-radius: 50px;
     background-color: #fff;
     display: inline-block;
+    text-align: center;
+    margin-top: 20px;
 }
+
+.data-white img{
+    height: 150px;
+    padding-top: 30px;
+}
+
+.data-white h3{
+    padding-top: 5px;
+}
+
+.data-white p{
+    color: #cd3333;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.data-white span{
+    font-size: 40px;
+}
+
+.data-left{
+    display: inline-block;
+    width: 43%;
+}
+
+
+.data-right{
+    display: inline-block;
+    width: 43%;
+}
+
+
 
 /* パートアルバイト */
 
