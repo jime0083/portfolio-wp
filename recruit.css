@@ -360,7 +360,7 @@
 .env-cont-p img{
     width: 200px;
     height: 200px;
-    border-radius: 50px;
+    border-radius: 100px;
 }
 
 .env-cont-p h3{
@@ -368,8 +368,34 @@
     padding-top: 5px;
 }
 
+.flow-top{
+    background-image: url("img/iphone-bl.jpg");
+}
+
+.flow-top h2{
+    color: #fff;
+    padding: 150px 0;
+    font-size: 30px;
+}
+
+.flow-cont{
+    background-color: #222;
+}
+
+.flow-cont-p img{
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+    margin: 20px 0;
+}
+
+.flow-cont-p h3{
+    color: #fff;
+    padding-bottom: 20px;
+}
+
 .flow-main{
-    padding-top: 70px;
+    padding-top: 30px;
     text-align: center;
     width: 100%;
 }
@@ -382,23 +408,25 @@
     text-align: center;
     display: inline-block;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .flow-content{
     display: inline-block;
-    /* border-radius: 20px; */
+    border-radius: 20px;
     background-color: #fff;
     width: 300px;
     height: 500px;
-    margin:0 10px;
+    margin:20px 10px;
     vertical-align: top;
+    box-shadow: 3px 5px 7px;
 }
 
 .flow-content img{
     height: 200px;
     width: 300px;
     display: block;
+    border-radius: 20px 20px 0 0;
 }
 
 .flow-blue{
@@ -417,13 +445,15 @@
     width: 300px;
     text-align: left;
     vertical-align: top;
-    height: 250px;
+    height: 230px;
+    
 }
 
 .flow-text p{
     padding: 15px 20px;
     height: 250px;
     display: inline-block;
+    font-size: 15px;
 }
 
 

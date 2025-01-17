@@ -7,13 +7,13 @@ Template Name:flow
         <?php get_header(4); ?>
 
         <div class="environment">
-            <div class="env-top">
-            <h2>Flow</h2>
+            <div class="flow-top">
+            <h2>Recruiting Flow</h2>
         </div>
 
-        <div class="env-cont">
-            <div class="env-cont-p">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/man2.jpg" alt="">
+        <div class="flow-cont">
+            <div class="flow-cont-p">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/man5.jpg" alt="">
                 <h3>H.K(〇〇年入社/エンジニア)の場合</h3>
             </div>
         </div>
@@ -23,7 +23,7 @@ Template Name:flow
             <div class="flow-contents">
 
                 <div class="flow-content">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/man2.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/reclute.jpg" alt="">
                     <div class="flow-blue">
                         <p>STEP1 | 入社式(4月1日)</p>
                     </div>
@@ -34,7 +34,7 @@ Template Name:flow
                 </div>
 
                 <div class="flow-content">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/man2.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/codeing2.jpg" alt="">
                     <div class="flow-blue">
                         <p>STEP2 | 新入社員研修(3ヶ月)</p>
                     </div>
@@ -45,7 +45,7 @@ Template Name:flow
                 </div>
 
                 <div class="flow-content">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/man2.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/pc2.jpg" alt="">
                     <div class="flow-blue">
                         <p>STEP3 | 研修発表会</p>
                     </div>
@@ -56,7 +56,7 @@ Template Name:flow
                 </div>
 
                 <div class="flow-content">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/man2.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/work3.jpg" alt="">
                     <div class="flow-blue">
                         <p>STEP4 | 初業務</p>
                     </div>
@@ -67,7 +67,7 @@ Template Name:flow
                 </div>
 
                 <div class="flow-content">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/man2.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/work2.jpg" alt="">
                     <div class="flow-blue">
                         <p>STEP5 | 1人で案件入り</p>
                     </div>
@@ -78,7 +78,7 @@ Template Name:flow
                 </div>
 
                 <div class="flow-content">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/man2.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/shake2.jpg" alt="">
                     <div class="flow-blue">
                         <p>STEP6 | さらなるキャリアアップへ...</p>
                     </div>
@@ -88,9 +88,12 @@ Template Name:flow
                     </div>
                 </div>
 
+                <div class="">
+                    <a class="btm-btn" href="">エントリーはこちら</a>
+                </div>
+
             </div>
-            <a href="">エントリーはこちら</a>
         </div>
 
 
-        <?php get_footer(); ?>
+        <?php get_footer(2); ?>
