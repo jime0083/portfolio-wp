@@ -118,6 +118,7 @@ ul{
 }
 
 
+/* header */
 
 .header{
     height: 80px;
@@ -234,7 +235,7 @@ ul{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
+    padding-bottom: 40px;
     text-align: center;
 }
 
@@ -377,7 +378,7 @@ ul{
 
 .top-page-acsses h2{
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .top-page-acsses iframe{
@@ -396,12 +397,12 @@ ul{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 450px;
     text-align: center;
 }
 
 .top-page-recluting h2{
-    padding-top: 100px;
+    padding-top: 50px;
     /* color: #fff; */
 }
 
@@ -425,18 +426,19 @@ ul{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 350px;
     text-align: center;
 }
 
 .top-page-partner h2{
-    padding-top: 100px;
+    padding-top: 50px;
     color: #fff;
 }
 
 .top-page-partner p{
     color: #fff;
     padding-top: 5px;
+    font-weight: 400;
 }
 
 .partner-contents{
@@ -532,39 +534,108 @@ ul{
         responsive
 =============================*/
 
-@media (min-width: 200px) and (max-width: 768px) {
-    .custom-nav {
-        background-color: #fff !important;
-        padding: 10px 0px !important;
+@media (max-width: 960px) {
+    
+
+
+    /* ヘッダー */
+
+    .header{
+        display: none;
     }
-    .custom-nav .container {
-        width: 85%;
+    
+    .header-logo{
+        display: inline-block;
+        /* margin-top: 10px; */
     }
-    .custom-nav .navbar-toggler {
+    
+    .header-links{
+        /* display: inline-block; */
+        height: 80px;
+    }
+    
+    .header-link{
+        vertical-align: middle;
+        height: 80px;
+        /* margin-top: 20px; */
+    }
+    
+    .header-link:hover{
+        color: #cf2e2e;
+    }
+    
+    .header-img{
+        width: 80px; 
+        height: 80px;
+        display: inline-block;
+    }
+    
+    .header-links a{
         color: #000;
-        font-size: 26px;
-        border: none;
+        text-decoration:none;
+        padding:0px 30px;
+        display: inline-block;
+        
     }
-    .custom-nav .logo .logo-dark {
-        display:inline-block;
+
+    /* 挨拶 */
+    .top-page-greeting p{
+        font-size: 15px;
+        padding: 0 10px;
     }
-    .custom-nav .navbar-nav li a {
-        color: rgba(0, 0, 0, 0.6) !important;
+
+
+    /* サービス */
+    .service-wrapper{
+        display: block;
     }
-    .custom-nav .logo .logo-light {
-        display:none;
+
+    .service-wrapper-content{
+        text-align: center;
+        width: 49%;
+        display: inline-block;
+        padding-bottom: 30px;
     }
-    .h-100vh{
-        height:auto;
+    
+    .service-wrapper-content a{
+        font-size: 12px;
     }
-    .header-bg-img{
-        clip-path: none;
+    
+    .service-wrapper-content img{
+        width: 130px;
+        height: 130px;
+        border-radius: 200px;
+        overflow: hidden;
     }
-    .custom-nav .navbar-nav li a {
-        margin: 0 0px;
-        line-height: 15px;
+    
+    .u-cent{
+        padding-top: 5px;
     }
-    .header-name{
-        font-size:38px;
+
+
+    /* 採用情報 */
+    .recluting-contents p{
+        font-size: 15px;
     }
+
+
+    /* パートナー */
+    .top-page-partner p{
+        font-size: 15px;
+    }
+
+    .partner-contents{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+
+
+    /* アクセス */
+    .top-page-acsses iframe{
+        width: 100%;
+        height: 300px;
+    }
+
+
 }
