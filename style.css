@@ -309,7 +309,7 @@ ul{
 }
 
 .top-page-service h2{
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .service-wrapper{
@@ -366,7 +366,7 @@ ul{
 }
 
 .top-page-info h2{
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 
@@ -529,6 +529,11 @@ ul{
     display: block;
     color: #000;
 }
+
+
+
+
+
 
 /*===========================
         responsive

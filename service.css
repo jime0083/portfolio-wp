@@ -19,23 +19,7 @@
     padding-top: 200px;
     color: #fff;
     font-size: 30px;
-}
-
-.company-top-img{
-    background-image:url("img/vision.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 400px;
-    text-align: center;
-}
-
-.company-top-img h2{
-    /* margin: auto; */
-    padding-top: 200px;
-    color: #fff;
-    font-size: 30px;
+    text-shadow: 1px 2px 3px #808080;
 }
 
 .service-title{
@@ -137,6 +121,24 @@
 
 
 /* companyページ */
+
+.company-top-img{
+    background-image:url("img/vision.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    text-align: center;
+}
+
+.company-top-img h2{
+    /* margin: auto; */
+    padding-top: 200px;
+    color: #fff;
+    font-size: 30px;
+    text-shadow: 1px 2px 3px #808080;
+}
 
 .about-wrapper{
     padding: 50px 0 20px 0;
@@ -335,4 +337,144 @@ CONTACTページ
     background-color: #cd3333;
     transition: all 0.2s;
     color: #fff;
+}
+
+
+
+
+
+
+/*===========================
+        responsive
+=============================*/
+
+@media (max-width: 960px){
+    .service-top-img{
+        height: 200px;
+        text-align: center;
+    }
+    
+    .service-top-img h2{
+        /* margin: auto; */
+        padding-top: 70px;
+        color: #fff;
+        font-size: 30px;
+    }
+
+    /* conpanyページ */
+
+    .company-top-img{
+        height: 200px;
+        text-align: center;
+    }
+    
+    .company-top-img h2{
+        /* margin: auto; */
+        padding-top: 70px;
+        color: #fff;
+        font-size: 30px;
+        
+    }
+
+    .about-contents{
+        padding: 0;
+    }
+
+    .about-left{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .about-left p{
+        padding-top: 10px;
+    }
+    
+    .about-right{
+        display: block;
+        text-align: center;
+        width: 100%;
+        padding: 10px 0 20px 0;
+    }
+
+
+    /* serviceページ */
+
+
+    .service-content{
+        background-color: #f1f1f1;
+        text-align: left;
+        padding: 50px 0;
+    }
+    
+    .service-contents{
+        text-align: center;
+        position: relative;
+    }
+    
+    .service-contents img{
+        width: 90%;
+        margin: 0;
+    }
+    
+    .service-right{
+        width: 80%;
+        background-color: #fff;
+        padding: 15px;
+        z-index: 2;
+        position: relative;
+        right: 0px;
+        bottom: 300px;
+        text-align: left;
+    }
+    
+    .service-right h2{
+        color: #12589d;
+        font-size: 24px;
+    }
+    
+    .service-right P{
+        font-size: 14px;
+        padding: 10px 0;
+    }
+    
+    .service-bottom{
+        width: 80%;
+        background-color: #fff;
+        padding: 20px;
+        z-index: 2;
+        position:relative;
+        margin: auto;
+        bottom: 5px;
+        left: 0px;
+        display: block;
+    }
+    
+    .service-bottom-c{
+        width: 80%;
+        display: block;
+    }
+    
+    .service-bottom-c h3{
+        color: #12589d;
+        font-size: 18px;
+    }
+    
+    .service-bottom-c p{
+        font-size: 12px;
+        padding: 5px 0 ;
+    }
+    
+    .bottom-left{
+        display: inline-block;
+        vertical-align: top;
+        width: 90%;
+    }
+    
+    .bottom-right{
+        display: inline-block;
+        vertical-align: top;
+        width: 90%;
+    }
 }
