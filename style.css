@@ -164,6 +164,10 @@ ul{
     
 }
 
+.header-respo{
+    display: none;
+}
+
 
 /* スライダー */
 .slider{
@@ -548,40 +552,11 @@ ul{
     .header{
         display: none;
     }
-    
-    .header-logo{
-        display: inline-block;
-        /* margin-top: 10px; */
+
+    .header-respo{
+        display: block;
     }
-    
-    .header-links{
-        /* display: inline-block; */
-        height: 80px;
-    }
-    
-    .header-link{
-        vertical-align: middle;
-        height: 80px;
-        /* margin-top: 20px; */
-    }
-    
-    .header-link:hover{
-        color: #cf2e2e;
-    }
-    
-    .header-img{
-        width: 80px; 
-        height: 80px;
-        display: inline-block;
-    }
-    
-    .header-links a{
-        color: #000;
-        text-decoration:none;
-        padding:0px 30px;
-        display: inline-block;
-        
-    }
+
 
     /* 挨拶 */
     .top-page-greeting p{
