@@ -544,9 +544,6 @@ ul{
 =============================*/
 
 @media (max-width: 960px) {
-    
-
-
     /* ヘッダー */
 
     .header{
@@ -555,6 +552,14 @@ ul{
 
     .header-respo{
         display: block;
+    }
+
+    .header-links{
+        display: none;
+    }
+
+    .recruit-header-links{
+        display: none;
     }
 
 

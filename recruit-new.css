@@ -48,8 +48,10 @@
         responsive
 =============================*/
 
-@media (max-width: 960px){
-    .recruit-header-2{
+@media (max-width: 960px) {
+    
+    .recruit-header-links{
         display: none;
     }
+
 }

@@ -5,6 +5,7 @@
     background-color: #222;
     vertical-align: middle;
     height: 80px;
+    display: block;
 }
 
 .recruit-header-content{
@@ -732,10 +733,10 @@
 =============================*/
 
 @media (max-width: 960px){
-    .recruit-header-1{
+
+    .recruit-header-links{
         display: none;
     }
-
     .recruit-header-links{
         display: none;
     }

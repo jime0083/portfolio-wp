@@ -1,5 +1,3 @@
-
-
     <?php get_header(); ?>
     <body>
         <div class="top-page">
